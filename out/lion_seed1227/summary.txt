@@ -1,0 +1,3 @@
+best_val_loss=4.686896
+sharpness_delta_mean=0.038113
+sharpness_delta_std=0.001406

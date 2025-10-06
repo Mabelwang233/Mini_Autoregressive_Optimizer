@@ -1,4 +1,0 @@
-optimizer,val_loss_mean,val_loss_std,val_ppl_mean,val_ppl_std,n_runs
-sgd,7.1939,0.0185,1331.4404,24.4955,3
-adam,4.9314,0.0071,138.5747,0.9838,3
-lion,5.0818,0.1600,162.4185,25.0189,3
