@@ -40,7 +40,7 @@ Writes `out/multi_seed_summary.csv` with mean/std of final val loss and perplexi
 
 ## Resuls and Analysis
 
-see the full write-up in [analysis.md](analysis.md)
+see the full write-up in [Analysis.md](Analysis.md)
 
 
 ## References
