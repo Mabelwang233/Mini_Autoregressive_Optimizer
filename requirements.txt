@@ -1,0 +1,7 @@
+torch>=2.2
+transformers>=4.44
+datasets>=2.20
+tqdm
+numpy
+matplotlib
+pyyaml

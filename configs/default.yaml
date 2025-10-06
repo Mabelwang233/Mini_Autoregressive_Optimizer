@@ -1,0 +1,25 @@
+run:
+  seed: 1337
+  out_dir: out
+  device: cuda            # or "cpu"
+  steps: 3000
+  log_every: 50
+  eval_every: 200
+
+train:
+  batch_size: 8
+  seq_len: 512
+  lr: 3.0e-4
+  weight_decay: 0.01
+  grad_clip: 1.0
+  dataset_size: 3000       # demo-sized; increase if you want
+
+hf:
+  model_name: flax-community/gpt-neo-125M-code-clippy
+  tokenizer_name: flax-community/gpt-neo-125M-code-clippy
+  data_root: ../data/
+
+landscape:
+  grid_n: 17               # 17x17 grid
+  span: 0.5                # +/- span for both axes
+  ckpt_glob: out/adam_*/best.pt
